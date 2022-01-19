@@ -5,13 +5,19 @@
 
 body {
     background-color: rgb(253, 250, 244); 
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(253, 250, 244);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .flex-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(2, 2, 88);
+    margin-bottom: 30px;
 }
 
 .flexbox-container{
@@ -54,14 +60,13 @@ h2 {
     list-style-type: none;
     padding-left: 30px;
     font-size: 1.5em;
-    color: background-color: rgb(253, 250, 244); 
+    color: rgb(253, 250, 244); 
 }
 
 .logo {
     font-size: 1.5em;
-    color:rgb(253, 250, 244);
+    font-weight: bold;
     padding-left: 20px;
-
 }
 
 a {
