@@ -4,16 +4,36 @@
     <head>
         <title>David Bushi</title>
         <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="profile-picture">
-                <img src="../media/david_bushi_resized.jpg" alt="David Bushi">
-            </div>
+        <div class ="navbar">
+            <nav class="flex-navbar">
 
-            <div class="presentation">
-                <h1>David Bushi</h1>
-                <h2>Welcome to my Portfolio Page</h2>
+                <div class="logo">
+                    <p>David Bushi</p>
+                </div>
+
+                <ul class="flexbox-container-nav-links">
+                    <li><a href="#welcome">Welcome</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <div class="flexbox-container">
+                <div class="profile-picture flexbox-item-1">
+                    <img src="../media/david_bushi_resized.jpg" alt="David Bushi">
+                </div>
+
+                <div class="presentation flexbox-item-2">
+                    <h1>David Bushi</h1>
+                    <p>Hey Welcome! I guess you've seen my name by now. I'm a Full Stack Developer and enjoy developing websites and web applications. 
+                        If you are interested in working with me, don't hesitate to <a href="#contact">contact</a> me. Cheers!</p>
+                </div>
             </div>
         </header>
     </body>
